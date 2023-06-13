@@ -12,6 +12,7 @@ DATA_COORDINATOR = "coordinator"
 
 # Conf comwatt_site_code
 CONF_COMWATT_SITE_CODE = "comwatt_site_code"
+CONF_COMWATT_BOX_NAME = "comwatt_box_name"
 
 # Device name
 DEVICE_CONF_URL = "https://energy.comwatt.com/#/login"
