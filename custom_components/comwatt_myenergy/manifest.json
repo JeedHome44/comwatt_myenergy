@@ -3,6 +3,8 @@
   "name": "Comwatt My Energy",
   "codeowners": ["@JeedHome44"],
   "config_flow": true,
+  "iot_class": "cloud_polling",
+  "integration_type": "hub",
   "documentation": "https://github.com/JeedHome44/comwatt_myenergy",
   "issue_tracker": "https://github.com/JeedHome44/comwatt_myenergy/issues",
 }
