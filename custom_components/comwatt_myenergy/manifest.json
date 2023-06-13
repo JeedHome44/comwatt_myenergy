@@ -1,1 +1,8 @@
-
+{
+  "domain": "comwatt_myenergy",
+  "name": "Comwatt My Energy",
+  "codeowners": ["@JeedHome44"],
+  "config_flow": true,
+  "documentation": "https://github.com/JeedHome44/comwatt_myenergy",
+  "issue_tracker": "https://github.com/JeedHome44/comwatt_myenergy/issues",
+}
