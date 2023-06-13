@@ -1,1 +1,22 @@
-
+{
+  "title": "Comwatt My Energy",
+  "config": {
+    "step": {
+      "user": {
+        "title": "Configure Comwatt Box",
+        "description": "Define the Comwatt account",
+        "data": {
+           "username": "the username",
+           "password" : "the password",
+        }
+      }
+    },
+    "error": {
+      "general_error": "unknown error",
+      "invalid_credentials": "invalid credentials"
+    },
+    "abort": {
+      "already_configured": "Already configured"
+    }
+  }
+}
