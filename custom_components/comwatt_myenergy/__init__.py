@@ -3,8 +3,6 @@ import asyncio
 
 from .const import DATA_COORDINATOR, DOMAIN
 
-PLATFORMS = ["sensor"]
-
 DATA_LISTENER = "listener"
 
 
