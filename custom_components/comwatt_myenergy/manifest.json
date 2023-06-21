@@ -7,5 +7,5 @@
   "integration_type": "hub",
   "documentation": "https://github.com/JeedHome44/comwatt_myenergy",
   "issue_tracker": "https://github.com/JeedHome44/comwatt_myenergy/issues",
-  "requirements": [],
+  "requirements": ["comwatt-api==1.0.0"],
 }
