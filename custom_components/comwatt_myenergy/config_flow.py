@@ -20,10 +20,10 @@ COMWATT_MYENERGY_DATA_SCHEMA = vol.Schema(
 )
 
 @config_entries.HANDLERS.register(DOMAIN)
-class ComwattGen4FlowHandler(config_entries.ConfigFlow):
-    """Assistant de configuration de Comwatt Gen4."""
+class ComwattMyEnergyFlowHandler(config_entries.ConfigFlow):
+    """Assistant de configuration de Comwatt My Energy."""
 
     async def async_step_user(self, user_input=None):
-        """Étape initiale de la configuration de Comwatt Gen4."""
+        """Étape initiale de la configuration de Comwatt My Energy."""
         # Gérer l'assistant de configuration
-        return self.async_create_entry(title="Comwatt Gen4", data={})
+        return self.async_create_entry(title="Comwatt My Energy", data={})
